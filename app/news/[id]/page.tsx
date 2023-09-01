@@ -17,7 +17,7 @@ const NewsCategory = async ({ params: { id }}: Props) => {
 
 export default NewsCategory;
 
-export async function getStaticParams(){
+export async function generateStaticParams(){
     return categories.map((category) => ({
         id: category
     }))
