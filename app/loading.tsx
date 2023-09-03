@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Loading = () => {
   return (
-    <div className='animate-pulse font-serif text-lg text-gray-400 text-center p-10'>Loading news feed...</div>
-  )
-}   
+    <div className="animate-pulse font-serif text-lg text-gray-400 text-center p-10">
+      Loading news feed...
+    </div>
+  );
+};
 
-export default Loading
+export default Loading;

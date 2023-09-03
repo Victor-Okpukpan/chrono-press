@@ -29,7 +29,7 @@ const Article = ({ article }: Props) => {
           <footer className="text-xs text-right ml-auto flex pt-5 text-gray-400 space-x-1">
             <p>{article.source} -</p>
             <p>
-              <LiveTimestamp time={article.published_at}/>
+              <LiveTimestamp time={article.published_at} />
             </p>
           </footer>
         </div>
